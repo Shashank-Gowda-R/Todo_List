@@ -53,7 +53,7 @@ onMounted(() => {
   <main class="app">
     <section class="greeting">
       <h2 class="title">
-        Hello,<input type="text" placeholder="Name" v-model="name" />
+        Hello,<input type="text" placeholder="Enter your Name" v-model="name" />
       </h2>
     </section>
     <section class="create-todo">

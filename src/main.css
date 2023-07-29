@@ -20,7 +20,8 @@
 	font-family: 'montserrat', sans-serif;
 }
 
-input:not([type="radio"]):not([type="checkbox"]), button {
+input:not([type="radio"]):not([type="checkbox"]),
+button {
 	appearance: none;
 	border: none;
 	outline: none;
@@ -140,7 +141,7 @@ input[type="checkbox"] {
 	box-shadow: var(--personal-glow);
 }
 
-input:checked ~ .bubble::after {
+input:checked~.bubble::after {
 	width: 10px;
 	height: 10px;
 	opacity: 1;
@@ -154,7 +155,8 @@ input:checked ~ .bubble::after {
 
 .create-todo input[type="submit"] {
 	display: block;
-	width: 100%;
+	width: 20%;
+	margin:0 auto;
 	font-size: 1.125rem;
 	padding: 1rem 1.5rem;
 	color: #FFF;
@@ -171,7 +173,7 @@ input:checked ~ .bubble::after {
 
 .todo-list .list {
 	margin: 1rem 0;
-} 
+}
 
 .todo-list .todo-item {
 	display: flex;
@@ -201,6 +203,7 @@ input:checked ~ .bubble::after {
 .todo-item .actions {
 	display: flex;
 	align-items: center;
+	width: 250px;
 }
 
 .todo-item .actions button {
